@@ -58,6 +58,7 @@ php artisan map:4water
 
 ### Notes on integration
 - The mapgen uses its own MapDatabase and Cell models under `app/Helpers/MapDatabase/`. If you wish to map these directly to your game's `tiles` and `resource_nodes` tables, I can add an importer that converts generated Cells into Eloquent `Tile` and `ResourceNode` rows. Tell me if you'd like me to implement that importer (recommended).
+
 - The map generator supports deterministic seeds. Pass seed options via the console commands (check command options in `app/Console/Commands/`).
 
 ## Co-Op Procedurally generated RTS Colony survival
@@ -154,5 +155,3 @@ Each colonist has:
 - Territory
 - Shared trade economy
 =======
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
->>>>>>> 01ac69b (Adding all my old files from the MapGenCode)
