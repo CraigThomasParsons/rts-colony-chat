@@ -17,6 +17,7 @@ php artisan map:4water
 
 - The map generator supports deterministic seeds. Pass seed options via the console commands (check command options in `app/Console/Commands/`).
 
+# Future plans
 ## Co-Op Procedurally generated RTS Colony survival
 
 That is the idea anyways
